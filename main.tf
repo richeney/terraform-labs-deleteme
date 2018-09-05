@@ -1,5 +1,6 @@
 module "scaffold" {
-  source    = "../terraform-modules/scaffold"
+  # source    = "/mnt/c/Users/richeney/git/terraform-scaffold-module"
+  source    = "github.com/richeney/terraform-scaffold-module"
 }
 
 resource "azurerm_resource_group" "webapps" {
