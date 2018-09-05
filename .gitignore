@@ -1,5 +1,6 @@
 .terraform/*
+.vscode/*
 terraform.tfstate
 terraform.tfstate.backup
-*.sh
 provider.tf
+*.sh
